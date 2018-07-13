@@ -1,0 +1,42 @@
+.main-container {
+	margin: 2rem;
+}
+
+.step-indicator-bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.step-indicator{
+	cursor: pointer;
+}
+
+.active-step{
+	color: #689bff;
+}
+
+.step-content{
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form{
+    width: 400px;
+}
+
+.form-item{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 1rem;
+	padding: 1rem;
+}
